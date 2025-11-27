@@ -1,0 +1,237 @@
+Aprovado
+{
+  "amount": 50.00,
+  "currency": "BRL",
+  "senderAccountId": "acct-100",
+  "receiverAccountId": "acct-200",
+  "customerId": "cust-100",
+  "channel": "APP",
+  "deviceId": "dev-1",
+  "ipAddress": "192.168.0.10",
+  "geoLocation": "BR",
+  "authAttempts": 0,
+  "timestamp": "2025-11-27T11:00:00"
+}
+Quantia alta à noite
+{
+  "amount": 3000.00,
+  "currency": "BRL",
+  "senderAccountId": "acct-200",
+  "receiverAccountId": "acct-300",
+  "customerId": "cust-200",
+  "channel": "APP",
+  "deviceId": "dev-2",
+  "ipAddress": "10.0.0.5",
+  "geoLocation": "BR",
+  "authAttempts": 0,
+  "timestamp": "2025-11-27T23:30:00"
+}
+Tentativas de autenticação
+{
+  "amount": 20.00,
+  "currency": "BRL",
+  "senderAccountId": "acct-300",
+  "receiverAccountId": "acct-400",
+  "customerId": "cust-300",
+  "channel": "APP",
+  "deviceId": "dev-3",
+  "ipAddress": "10.0.0.9",
+  "geoLocation": "BR",
+  "authAttempts": 3,
+  "timestamp": "2025-11-27T10:15:00"
+}
+test multiples e inicio do Panic mode
+{ "amount": 10.00,
+ "currency":"BRL",
+"senderAccountId":"acct-400",
+"receiverAccountId":"r1",
+"customerId":"cust-400",
+"channel":"APP",
+"deviceId":"dev-4", 
+"ipAddress":"1.2.3.4",
+"geoLocation":"BR",
+"authAttempts":0,
+"timestamp":"2025-11-27T12:00:00" }
+
+{ "amount": 12.00, 
+"currency":"BRL", 
+"senderAccountId":"acct-400", 
+"receiverAccountId":"r2", 
+"customerId":"cust-400", 
+"channel":"APP", 
+"deviceId":"dev-4", 
+"ipAddress":"1.2.3.4", 
+"geoLocation":"BR", 
+"authAttempts":0, 
+"timestamp":"2025-11-27T12:02:00" }
+
+{ "amount": 15.00, 
+"currency":"BRL", 
+"senderAccountId":"acct-400", 
+"receiverAccountId":"r3", 
+"customerId":"cust-400", 
+"channel":"APP", 
+"deviceId":"dev-4", 
+"ipAddress":"1.2.3.4", 
+"geoLocation":"BR", 
+"authAttempts":0, 
+"timestamp":"2025-11-27T12:03:00" 
+}
+{
+  "amount": 20.00,
+  "currency": "BRL",
+  "senderAccountId": "acct-400",
+  "receiverAccountId": "r4",
+  "customerId": "cust-400",
+  "channel": "APP",
+  "deviceId": "dev-4",
+  "ipAddress": "1.2.3.4",
+  "geoLocation": "BR",
+  "authAttempts": 0,
+  "timestamp": "2025-11-27T12:04:00"
+}
+Mudança de dispositivo.
+{ "amount": 30.00,
+ "currency":"BRL",
+"senderAccountId":"acct-500",
+"receiverAccountId":"rA",
+"customerId":"cust-500",
+"channel":"APP", 
+"deviceId":"device-old", 
+"ipAddress":"2.2.2.2", 
+"geoLocation":"BR", 
+"authAttempts":0, 
+"timestamp":"2025-11-27T14:00:00" 
+}
+{
+  "amount": 35.00,
+  "currency": "BRL",
+  "senderAccountId": "acct-500",
+  "receiverAccountId": "rB",
+  "customerId": "cust-500",
+  "channel": "APP",
+  "deviceId": "device-new",
+  "ipAddress": "2.2.2.2",
+  "geoLocation": "BR",
+  "authAttempts": 0,
+  "timestamp": "2025-11-27T14:10:00"
+}
+Receptor novo com valor alto.
+{
+  "amount": 1500.00,
+  "currency": "BRL",
+  "senderAccountId": "acct-600",
+  "receiverAccountId": "unique-new-receiver-1",
+  "customerId": "cust-600",
+  "channel": "APP",
+  "deviceId": "dev-6",
+  "ipAddress": "3.3.3.3",
+  "geoLocation": "BR",
+  "authAttempts": 0,
+  "timestamp": "2025-11-27T17:00:00"
+}
+
+Mudança de geolocalização.
+{ "amount": 50.00, 
+"currency":"BRL", 
+"senderAccountId":"acct-700", 
+"receiverAccountId":"rX", 
+"customerId":"cust-700", 
+"channel":"APP", 
+"deviceId":"dev-7", 
+"ipAddress":"4.4.4.4", 
+"geoLocation":"BR", 
+"authAttempts":0, 
+"timestamp":"2025-11-27T09:00:00" 
+}
+{
+  "amount": 500.00,
+  "currency": "BRL",
+  "senderAccountId": "acct-700",
+  "receiverAccountId": "rY",
+  "customerId": "cust-700",
+  "channel": "APP",
+  "deviceId": "dev-7",
+  "ipAddress": "8.8.8.8",
+  "geoLocation": "US",
+  "authAttempts": 0,
+  "timestamp": "2025-11-27T09:30:00"
+}
+Mudança de canal
+{
+  "amount": 30.00,
+  "currency": "BRL",
+  "senderAccountId": "acct-800",
+  "receiverAccountId": "r-prev",
+  "customerId": "cust-800",
+  "channel": "APP",
+  "deviceId": "dev-8",
+  "ipAddress": "5.5.5.5",
+  "geoLocation": "BR",
+  "authAttempts": 0,
+  "timestamp": "2025-11-27T10:00:00"
+}
+{
+  "amount": 40.00,
+  "currency": "BRL",
+  "senderAccountId": "acct-800",
+  "receiverAccountId": "r-new",
+  "customerId": "cust-800",
+  "channel": "PHONE",
+  "deviceId": "dev-8",
+  "ipAddress": "5.5.5.5",
+  "geoLocation": "BR",
+  "authAttempts": 0,
+  "timestamp": "2025-11-27T10:10:00"
+}
+Envio de 3 transações em 1 hora
+{ "amount": 10.00, 
+"currency":"BRL", 
+"senderAccountId":"acct-900", 
+"receiverAccountId":"r1", 
+"customerId":"cust-900", 
+"channel":"APP", 
+"deviceId":"dev-9", 
+"ipAddress":"6.6.6.6", 
+"geoLocation":"BR", 
+"authAttempts":0, 
+"timestamp":"2025-11-27T14:00:00" 
+}
+{ "amount": 12.00, 
+"currency":"BRL", 
+"senderAccountId":"acct-900", 
+"receiverAccountId":"r2", 
+"customerId":"cust-900", 
+"channel":"APP", 
+"deviceId":"dev-9", 
+"ipAddress":"6.6.6.6", 
+"geoLocation":"BR", 
+"authAttempts":0, 
+"timestamp":"2025-11-27T14:20:00" 
+}
+{ "amount": 15.00, 
+"currency":"BRL", 
+"senderAccountId":"acct-900", 
+"receiverAccountId":"r3", 
+"customerId":"cust-900", 
+"channel":"APP", 
+"deviceId":"dev-9", 
+"ipAddress":"6.6.6.6", 
+"geoLocation":"BR", 
+"authAttempts":0, 
+"timestamp":"2025-11-27T14:40:00" 
+}
+Quantia alta durante o dia 
+{
+  "amount": 2500.00,
+  "currency": "BRL",
+  "senderAccountId": "acct-1000",
+  "receiverAccountId": "acct-2000",
+  "customerId": "cust-1000",
+  "channel": "APP",
+  "deviceId": "dev-10",
+  "ipAddress": "7.7.7.7",
+  "geoLocation": "BR",
+  "authAttempts": 0,
+  "timestamp": "2025-11-27T11:30:00"
+}
